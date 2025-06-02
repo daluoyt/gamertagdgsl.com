@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de Diamantes - Free Fire</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background: #1c1c1c;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    input, select, button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 90%;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+    }
+    button {
+      background: #00ffcc;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #00e6b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Generador de Diamantes 🎮</h1>
+    <p>Ingresa tu ID de Free Fire:</p>
+    <input type="text" id="userID" placeholder="Ej: 123456789">
+    
+    <p>Selecciona cantidad de diamantes:</p>
+    <select id="diamonds">
+      <option value="100">100 Diamantes</option>
+      <option value="500">500 Diamantes</option>
+      <option value="1000">1000 Diamantes</option>
+      <option value="2000">2000 Diamantes</option>
+    </select>
+    
+    <br><br>
+    <button onclick="procesar()">Generar</button>
+    
+    <p id="mensaje" style="margin-top: 20px;"></p>
+  </div>
+
+  <script>
+    function procesar() {
+      let userID = document.getElementById("userID").value;
+      let cantidad = document.getElementById("diamonds").value;
+
+      if (userID === "") {
+        document.getElementById("mensaje").innerText = "⚠️ Por favor, ingresa tu ID.";
+        return;
+      }
+
+      document.getElementById("mensaje").innerText = "Procesando datos...";
+      
+      // Redirecciona al enlace monetizado (por ejemplo, Linkvertise)
+      setTimeout(() => {
+        window.location.href = "https://linkvertise.com/your-monetized-link";
+      }, 2000);
+    }
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la página</title>
+</head>
+<body>
+    
+</body>
+</html>
